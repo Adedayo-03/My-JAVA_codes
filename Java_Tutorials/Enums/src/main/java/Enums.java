@@ -4,18 +4,17 @@
  */
 
 /**
- *
  * @author princ
  */
 public class Enums {
-    enum Level{
-        Low,
-        Medium,
-        High
+    enum details{
+        name,
+        age,
+        level
     }
-
+    
     public static void main(String[] args) {
-        Level myObj = Level.High;
-        System.out.println(myObj);
+        details myObj = details.level;
+        System.out.print(myObj);
     }
 }
